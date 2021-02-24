@@ -13,3 +13,4 @@ team_names = {team['id']: team['name'] for team in data['teams']}
 
 players = {player['id']: f'{player["first_name"]} {player["second_name"]}' for player in data['elements']}
 
+print('wtf')
